@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Booking demo'),
+        title: const Text('Booking event demo'),
       ),
       body: BookingWidget(
         controller: controller,
